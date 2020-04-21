@@ -1,0 +1,61 @@
+.main_box{
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    widows: 100%;
+    margin-top:80px;
+    background: #3de7a7;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    /* border-radius: 10px; */
+    box-shadow: 0 0 5px 5px #0e8658;
+}
+.section1{
+    background:url("https://cdn4.iconfinder.com/data/icons/political-elections/50/19-512.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    flex:1;
+}
+.section2{
+    flex:2;
+    font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+form{
+    border:1px solid #33b582;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 50px 60px;
+    background: #33b582;
+}
+input[type=email] {
+    background-position: 5px 2px; 
+    background-image: url("https://image.flaticon.com/icons/svg/1651/1651017.svg");
+    padding-left:  40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+input.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched{
+    border:1.2px solid red;
+}
+
+.resultBox{
+    margin-top: 80px;
+    border:1px solid black;
+    padding: 10px 8px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #3de7a7;
+}
+.resultBox table{
+    margin:0px
+
+}
+
+.resultBox table td{
+    background-color: #33b582;
+    font-size: 18px;
+
+    
+}

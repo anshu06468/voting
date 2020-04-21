@@ -1,0 +1,20 @@
+.header{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    background: #33b582;
+}
+.header #heading{
+    color: #33b582 !important;
+    padding: 12px;
+}
+.result{
+    border:1px solid wheat;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.header:hover{
+    color:#33b582;
+    background-color: #000000ad;
+}
